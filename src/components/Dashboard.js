@@ -17,7 +17,7 @@ export default function Dashboard(props) {
 
     return (
         <React.Fragment>
-            <img src={image} width="20%" height="50%" />
+            <img src={image} alt="friends" width="20%" height="50%" />
             <Container maxWidth="lg" style={{ backgroundColor: 'rgb(240 241 243)', height: '100vh' }}>
 
                 <Box component="span" m={1} color="info.main">
