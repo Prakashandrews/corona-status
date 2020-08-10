@@ -35,7 +35,7 @@ export default function CountryList(props) {
     const res = list.filter(item => selectedCountries.includes(item.country));
 
     const cardItems = res.map((item) =>
-        <Grid item xs={6} sm={4} lg={6} md={6}>
+        <Grid item xs={12} sm={6} lg={6} md={6}>
             <Card className={classes.root}>
                 <CardActionArea>
                     <CardContent>

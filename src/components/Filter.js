@@ -8,10 +8,10 @@ export default function Filter(props) {
     function onTagsChange(event, values) {
         selectedTags(values)
     }
-    
+
     return (
         <>
-        <div style={{ width: 500, paddingBottom: 20 }}>
+        <div style={{ paddingBottom: 20 }}>
             <Autocomplete
                 multiple
                 options={props.details}
