@@ -8,7 +8,6 @@ export default function Filter(props) {
     function onTagsChange(event, values) {
         selectedTags(values)
     }
-    //const data = props.details.shift();
     
     return (
         <>
