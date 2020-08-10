@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
-import image from "../images/pp.jpeg";
-import CustomizedTables from './Corona-table';
 import Filter from './Filter';
 
 export default function Dashboard(props) {
